@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* Navbar Customization */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007BFF;
+  }
+  
+  /* Carousel Caption Styling */
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  
+  /* Services Section */
+  .services .card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Team Section */
+  .team .card {
+    border: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .team .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Gallery Section */
+  .gallery .card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Form */
+  .contact-form form input,
+  .contact-form form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form form input:focus,
+  .contact-form form textarea:focus {
+    border-color: #007BFF;
+  }
+  
+  /* Button Hover Effects */
+  .btn-primary {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Footer (Optional) */
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-top: 40px;
+  }
+  

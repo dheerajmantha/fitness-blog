@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Fitness Blog</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Fitness Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Gallery Section -->
+  <section class="gallery py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <div class="row">
+        <!-- Gallery Item 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery1.jpg" class="card-img-top" alt="Gallery Image 1" data-toggle="modal" data-target="#modal1" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 1 -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery1.jpg" class="img-fluid" alt="Gallery Image 1" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery2.jpg" class="card-img-top" alt="Gallery Image 2" data-toggle="modal" data-target="#modal2" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 2 -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery2.jpg" class="img-fluid" alt="Gallery Image 2" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery3.jpg" class="card-img-top" alt="Gallery Image 3" data-toggle="modal" data-target="#modal3" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 3 -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery3.jpg" class="img-fluid" alt="Gallery Image 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery4.jpg" class="card-img-top" alt="Gallery Image 4" data-toggle="modal" data-target="#modal4" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 4 -->
+        <div class="modal fade" id="modal4" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery4.jpg" class="img-fluid" alt="Gallery Image 4" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery5.jpg" class="card-img-top" alt="Gallery Image 5" data-toggle="modal" data-target="#modal5" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 5 -->
+        <div class="modal fade" id="modal5" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery5.jpg" class="img-fluid" alt="Gallery Image 5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/gallery6.jpg" class="card-img-top" alt="Gallery Image 6" data-toggle="modal" data-target="#modal6" />
+          </div>
+        </div>
+        <!-- Modal for Gallery Item 6 -->
+        <div class="modal fade" id="modal6" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/gallery6.jpg" class="img-fluid" alt="Gallery Image 6" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
